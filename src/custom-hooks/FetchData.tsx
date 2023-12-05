@@ -1,4 +1,3 @@
-import React from 'react'
 import { server_calls } from '../api/server';
 import { useState, useEffect } from 'react'
 

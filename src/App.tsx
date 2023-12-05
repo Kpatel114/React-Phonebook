@@ -1,12 +1,7 @@
-import { HashRouter, BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import routes from './config/routes'
-
-import Home from './pages/Home'
-import About from './pages/About'
-import Dashboard from './pages/Dashboard'
 import Navbar from './components/Navbar'
 
-import { Component } from 'react'
 import { Provider } from 'react-redux'
 import store from './redux/store'
 
