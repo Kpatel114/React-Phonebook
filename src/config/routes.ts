@@ -10,8 +10,6 @@ interface RouteType {
     protected: boolean
 }
 
-const a:Number = 5
-
 
 const routes: RouteType[] = [
     {
